@@ -6,7 +6,7 @@
 /*   By: evocatur <evocatur@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 11:28:29 by evocatur          #+#    #+#             */
-/*   Updated: 2023/03/01 14:41:32 by evocatur         ###   ########.fr       */
+/*   Updated: 2023/03/22 13:01:17 by evocatur         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 # include <string.h>
 # include <stdlib.h>
 # include <stdarg.h>
+# include <fcntl.h>
+# include <stdbool.h>
 
 typedef struct s_list
 {
@@ -91,5 +93,12 @@ int			flag_space(const char *s, va_list ap);
 int			flag_plus(const char *str, va_list ap);
 int			ft_len_hex(unsigned int num);
 void		ft_put_hex(unsigned int num, char c);
+char		*get_next_line(int fd);
+char		*ft_statstr(int fd, char *statstr);
+size_t		ft_strlen(const char *str);
+char		*ft_strjoin(char *backup, char *buff);
+char		*ft_strchr(const char *str, int ch);
+char		*ft_backup(char *backup);
+char		*ft_get_line(char *backup);
 
 #endif
