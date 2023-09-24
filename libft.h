@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: evocatur <evocatur@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edoardo <edoardo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 11:28:29 by evocatur          #+#    #+#             */
-/*   Updated: 2023/03/22 13:01:17 by evocatur         ###   ########.fr       */
+/*   Updated: 2023/09/19 13:55:02 by edoardo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,9 @@
 # include <stdarg.h>
 # include <fcntl.h>
 # include <stdbool.h>
+# include <stdint.h>
+
+#define BUFFER_SIZE 42
 
 typedef struct s_list
 {
@@ -44,7 +47,7 @@ void		*ft_memchr(const void *str, int c, size_t n);
 void		*ft_memmove(void *dst, const void *src, size_t n);
 void		*ft_memset(void *b, int c, size_t len);
 char		*strchr(const char *str, int ch);
-char		*ft_strjoin(char const *s1, char const *s2);
+char		*ft_strjoin(char  *s1, char  *s2);
 const char	*ft_strnstr(const char *X, const char *Y, size_t len);
 char		*ft_strrchr(const char *str, int c);
 char		*ft_strchr(const char *str, int ch);
@@ -52,7 +55,7 @@ char		*ft_substr(char const *s, unsigned int start, unsigned int len);
 size_t		ft_strlcat(char *dst, const char *src, size_t size);
 char		*ft_strdup(const char *s);
 char		**ft_split(const char *s, char c);
-int			ft_strlen(const char *s);
+size_t		ft_strlen(const char *s);
 size_t		ft_strlcpy(char *dst, const char *src, size_t dstsize);
 int			ft_strncmp(const char *s1, const char *s2, size_t n);
 char		*ft_strtrim(char const *s1, char const *set);

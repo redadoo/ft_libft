@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: evocatur <evocatur@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edoardo <edoardo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/19 11:43:11 by evocatur          #+#    #+#             */
-/*   Updated: 2023/02/11 15:26:01 by evocatur         ###   ########.fr       */
+/*   Updated: 2023/09/18 16:18:21 by edoardo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strrchr(const char *s, int c)
 		{
 			if (*s == (char)c)
 				ischarfind = (char *)s;
-		s++;
+			s++;
 		}
 	}
 	if ((char)c == *s)

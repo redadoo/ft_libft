@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: evocatur <evocatur@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edoardo <edoardo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 16:43:06 by evocatur          #+#    #+#             */
-/*   Updated: 2023/02/10 18:33:59 by evocatur         ###   ########.fr       */
+/*   Updated: 2023/09/18 16:08:25 by edoardo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,11 +77,7 @@ static char	*countdigit(int x, char *newstr)
 char	*ft_itoa(int temp)
 {
 	char	*newstr;
-	int		cnt;
-	int		x;
 
-	cnt = 0;
-	x = temp;
 	newstr = NULL;
 	newstr = countdigit(temp, newstr);
 	if (newstr == NULL)

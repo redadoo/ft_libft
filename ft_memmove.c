@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: evocatur <evocatur@student.42.fr>          +#+  +:+       +#+        */
+/*   By: edoardo <edoardo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 14:20:48 by evocatur          #+#    #+#             */
-/*   Updated: 2023/02/07 17:27:59 by evocatur         ###   ########.fr       */
+/*   Updated: 2023/09/18 16:08:39 by edoardo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 {
 	char			*src2;
 	char			*dst2;
-	unsigned int	i;
 
-	i = 0;
 	src2 = (char *)src;
 	dst2 = (char *)dst;
 	if (!dst && !src)
