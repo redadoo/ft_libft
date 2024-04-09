@@ -20,9 +20,9 @@ char	*ft_substr(char const *s, unsigned int start, unsigned int len)
 
 	i = 0;
 	j = start;
-	if (!s || len < 0)
+	if (!s)
 		return (NULL);
-	while ((int)start < ft_strlen(s) && s[start] != '\0' && i < len)
+	while ((size_t)start < ft_strlen(s) && s[start] != '\0' && i < len)
 	{
 		start++;
 		i++;
