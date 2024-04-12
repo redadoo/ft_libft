@@ -5,7 +5,8 @@
 ![GitHub stars](https://img.shields.io/github/stars/redadoo/ft_libft?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/redadoo/ft_libft?style=social)
 
-`libft` is a custom C library providing a collection of utility functions for common tasks in C programming. 
+`libft` is a custom C library providing a collection of utility functions for common tasks in C programming.
+this project is part of the common core of 42 
 
 ## Table of Contents
 
