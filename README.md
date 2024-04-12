@@ -18,6 +18,7 @@ this project is part of the common core of 42
 
 This library was initially developed as a project for learning purposes. It provides various functions commonly used in C programming, including string manipulation, memory management, linked list operations, and more.
 
+read [Subject]([https://github.com/redadoo/ft_libft/blob/master/en.subject.pdf)) for more info
 ## Functions
 
 Here's a list of some key functions provided by `libft`:
