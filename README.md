@@ -12,7 +12,6 @@
 - [About](#about)
 - [Functions](#functions)
 - [Usage](#usage)
-- [License](#license)
 
 ## About
 
