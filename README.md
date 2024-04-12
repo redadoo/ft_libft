@@ -58,3 +58,14 @@ To utilize `libft` in your C project, follow these steps:
 
 ```bash
 git clone https://github.com/redadoo/ft_libft.git
+```
+
+2. Add libft to the project
+```bash
+#include"libft.h"
+```
+
+3. link libft
+```bash
+-Llib/libft/ -lft
+```
